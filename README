@@ -1,0 +1,32 @@
+shir_brosh
+316124767
+
+
+=============================
+=      File description     =
+=============================
+this exercise contains the following java classes:
+Book - This class represents a book, which has a title, author, year of publication and different literary
+    aspects.
+Patron - This class represents a library patron that has a name and assigns values to different literary
+    aspects of books.
+Library - This class represents a library, which hold a collection of books. Patrons can register at the
+    library to be able to check out books, if a copy of the requested book is available.
+
+=============================
+=          Design           =
+=============================
+Book- I used the skeleton file from the moodle.
+Patron- I used the given API.
+Library- I used the given API.
+
+=============================
+=  Implementation details   =
+=============================
+In the Library class I added 2 public members- bookArray- which is an array of all books in the library,
+and patronArray- which is an array of all the patrons in the library. I also added a method books_at_patron-
+that counts the amount of books the given patron (using patron ID) is borrowing.
+
+=============================
+=    Answers to questions   =
+=============================
